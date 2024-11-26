@@ -1,12 +1,11 @@
 import ZoomParralax from "./components/ZoomParralax"
 import Test from "./components/Test"
+import ScrollParallax from "./components/ScrollParallax"
 
 const page = () => {
   return (
    <>
-     <div className="h-[50vh] ">
-
-    </div>
+    <ScrollParallax/>
     <ZoomParralax/>
     <Test/>
    </>
